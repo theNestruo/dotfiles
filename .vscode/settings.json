@@ -1,0 +1,276 @@
+{
+	// ------------------------------------------------------------------------
+	// Telemetry, online services, and GitHub Copilot off:
+
+	"chat.agent.enabled": false,
+	"chat.disableAIFeatures": true,
+	"extensions.allowed": {
+		"equinusocio": false, // Material Theme license changes and drama
+		"vira": false, // Material Theme license changes and drama
+		"GitHub.copilot": false, // GitHub Copilot
+		"GitHub.copilot-chat": false, // GitHub Copilot Chat
+		"vscjava.migrate-java-to-azure": false, // GitHub Copilot app modernization
+		"vscjava.vscode-java-upgrade": false, // GitHub Copilot app modernization - upgrade for Java
+		"*": true
+	},
+	"extensions.ignoreRecommendations": true,
+	"github.copilot.enable": {
+		"*": false,
+		"plaintext": false,
+		"markdown": false,
+		"scminput": false
+	},
+	"redhat.telemetry.enabled": false,
+	"telemetry.feedback.enabled": false,
+	"telemetry.telemetryLevel": "off",
+	"update.showReleaseNotes": false,
+	"workbench.cloudChanges.autoResume": "off",
+	"workbench.cloudChanges.continueOn": "off",
+	"workbench.enableExperiments": false,
+	"workbench.settings.enableNaturalLanguageSearch": false,
+	"workbench.tips.enabled": false,
+	"workbench.welcomePage.walkthroughs.openOnInstall": false,
+
+	// ------------------------------------------------------------------------
+	// Appearance:
+
+	"editor.fontFamily": "Rec Mono DtCustom, Consolas, monospace",
+	"terminal.integrated.fontFamily": "Consolas, monospace",
+	"workbench.colorTheme": "Dark- custom",
+	"workbench.iconTheme": "symbols",
+
+	// ------------------------------------------------------------------------
+	// Appearance tweaks:
+
+	"editor.tokenColorCustomizations": {
+		"[Visual Studio Light][Default Light*]": {
+			"comments": "#3b3b3b80"
+		},
+	},
+	"workbench.colorCustomizations": {
+		"[Visual Studio Light][Default Light*]": {
+			"editorInlayHint.background": "#e4e4e4",
+			"editorInlayHint.foreground": "#3b3b3b",
+			"editorLineNumber.foreground": "#3b3b3b40"
+		},
+	},
+
+	// ------------------------------------------------------------------------
+	// General layout and behaviour:
+
+	"breadcrumbs.symbolPath": "off",
+	"debug.toolBarLocation": "docked",
+	"diffEditor.ignoreTrimWhitespace": true,
+	"editor.bracketPairColorization.enabled": false,
+	"editor.colorDecorators": false,
+	"editor.dragAndDrop": false,
+	"editor.emptySelectionClipboard": false,
+	"editor.guides.indentation": false,
+	"editor.inlayHints.fontFamily": "Small Font,Segoe WPC,Segoe UI,sans-serif",
+	"editor.inlayHints.fontSize": 10,
+	"editor.inlayHints.padding": true,
+	"editor.insertSpaces": false,
+	"editor.matchBrackets": "near",
+	"editor.minimap.enabled": false,
+	"editor.minimap.renderCharacters": false,
+	"editor.occurrencesHighlight": "off",
+	"editor.overviewRulerBorder": false,
+	"editor.renderLineHighlight": "all",
+	"editor.renderLineHighlightOnlyWhenFocus": true,
+	"editor.renderWhitespace": "none",
+	"editor.roundedSelection": false,
+	"editor.rulers": [ 80, 120 ],
+	"editor.scrollbar.scrollByPage": true,
+	"editor.scrollBeyondLastLine": false,
+	"editor.selectionHighlight": false,
+	"editor.stickyScroll.enabled": true,
+	"editor.suggest.insertMode": "insert",
+	"editor.suggestOnTriggerCharacters": false,
+	"editor.wordBasedSuggestions": "off",
+	"explorer.autoReveal": false,
+	"explorer.enableDragAndDrop": false,
+	"files.insertFinalNewline": true,
+	"files.trimTrailingWhitespace": true,
+	"outline.collapseItems": "alwaysCollapse",
+	"outline.showProperties": false,
+	"outline.showVariables": false,
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.cursorStyle": "underline",
+	"terminal.integrated.defaultProfile.windows": "Command Prompt",
+	"terminal.integrated.fontWeightBold": "normal",
+	"terminal.integrated.persistentSessionReviveProcess": "never",
+	"terminal.integrated.profiles.windows": {
+		"Command Prompt": {
+			"path": [
+				"${env:windir}\\Sysnative\\cmd.exe",
+				"${env:windir}\\System32\\cmd.exe"
+			],
+			"args": [],
+			"icon": "terminal-cmd"
+		},
+	},
+	"terminal.integrated.showLinkHover": false,
+	"window.commandCenter": false,
+	"window.menuBarVisibility": "toggle",
+	"workbench.editor.decorations.badges": false,
+	"workbench.editor.decorations.colors": false,
+	"workbench.editor.empty.hint": "hidden",
+	"workbench.editor.enablePreviewFromCodeNavigation": true,
+	"workbench.editor.enablePreviewFromQuickOpen": true,
+	"workbench.editor.limit.enabled": true,
+	"workbench.editor.limit.excludeDirty": true,
+	"workbench.editor.limit.perEditorGroup": true,
+	"workbench.editor.limit.value": 7,
+	"workbench.editor.revealIfOpen": true,
+	"workbench.layoutControl.enabled": false,
+	"workbench.list.openMode": "doubleClick",
+	"workbench.startupEditor": "none",
+	"workbench.tree.enableStickyScroll": true,
+	"workbench.tree.expandMode": "doubleClick",
+	"workbench.tree.indent": 16,
+	"zenMode.centerLayout": false,
+	"zenMode.fullScreen": false,
+
+	// ------------------------------------------------------------------------
+	// Source control layout and behaviour:
+
+	"scm.alwaysShowRepositories": true,
+	"scm.defaultViewMode": "tree",
+	"scm.diffDecorations": "gutter",
+	"git.allowForcePush": false,
+	"git.autofetch": true,
+	"git.confirmSync": false,
+	"git.decorations.enabled": false,
+	"git.enabled": true,
+	"git.enableSmartCommit": true,
+	"git.mergeEditor": true,
+	"git.openRepositoryInParentFolders": "never",
+	"git.path": "C:\\dev\\bin\\git-2.51.0\\bin\\git.exe",
+	"git-graph.dialog.addTag.type": "Lightweight",
+	"git-graph.dialog.addTag.pushToRemote": true,
+	"git-graph.dialog.merge.noFastForward": false,
+	"git-graph.enhancedAccessibility": true,
+	"git-graph.referenceLabels.alignment": "Branches (aligned to the graph) & Tags (on the right)",
+	"git-graph.repository.commits.mute.commitsThatAreNotAncestorsOfHead": true,
+
+	// ------------------------------------------------------------------------
+	// Language specific settings:
+
+	// C
+	"[c]": {
+		"editor.occurrencesHighlight": "singleFile",
+	},
+
+	// CSS
+	"css.format.newlineBetweenSelectors": false,
+	"css.format.spaceAroundSelectorSeparator": true,
+
+	// HTML
+	"[html]": {
+		"editor.formatOnSave": false,
+		"editor.rulers": [ 80, 120, 160 ],
+		"editor.wordWrap": "bounded",
+		"editor.wordWrapColumn": 160
+	},
+
+	// Java
+	"[java]": {
+		"editor.occurrencesHighlight": "singleFile",
+	},
+	"java.cleanup.actions": [
+		/*
+		 * Disabled due picocli:
+		 * "Constant (final) primitive and String fields like ... cannot be used as an @Option:
+		 * compile-time constant inlining may hide new values written to it
+		"addFinalModifier",
+		 */
+		"addOverride",
+		"organizeImports",
+		"qualifyMembers",
+	],
+	"java.configuration.updateBuildConfiguration": "automatic",
+	"java.completion.favoriteStaticMembers": [],
+	"java.inlayHints.parameterNames.enabled": "none",
+	"java.saveActions.organizeImports": true,
+	"java.saveActions.cleanup": true,
+	"java.server.launchMode": "LightWeight",
+
+	// Javascript/Typescript:
+	"[javascript][typescript]": {
+		"editor.codeActionsOnSave": {
+			"source.addMissingImports.ts": "always",
+			"source.organizeImports": "always"
+		},
+		"editor.formatOnSave": true,
+		"editor.occurrencesHighlight": "singleFile",
+	},
+	"eslint.codeActionsOnSave.mode": "all",
+	"eslint.codeActionsOnSave.options": {},
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+
+	// Markdown:
+	"[markdown]": {
+		"editor.links": false,
+		"editor.wordWrap": "bounded",
+		"editor.wordWrapColumn": 120
+	},
+	"markdown.validate.enabled": true,
+
+	// Plain text:
+	"[plaintext]": {
+		"editor.unicodeHighlight.ambiguousCharacters": true,
+		"editor.unicodeHighlight.invisibleCharacters": true,
+		"editor.wordWrap": "bounded",
+		"editor.wordWrapColumn": 120,
+		"editor.tabSize": 8
+	},
+
+	// XML
+	"[xml]": {
+		"editor.links": false,
+	},
+
+	// YAML:
+	"[yaml]": {
+		"diffEditor.ignoreTrimWhitespace": false,
+		"editor.autoIndent": "advanced",
+		"editor.guides.indentation": true,
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2,
+	},
+
+	// Z80 assembly:
+	"[z80-macroasm]": {
+		"editor.quickSuggestions": {
+			"comments": "off",
+			"other": "off",
+			"strings": "off",
+		},
+		"editor.tabSize": 8
+	},
+	"z80-asm-meter.platform": "msx",
+	"z80-asm-meter.syntax": "tniasm",
+	"z80-asm-meter.statusBar.alignment": "left",
+	"z80-asm-meter.statusBar.showInstruction": true,
+	"z80-asm-meter.statusBar.sizeNumericFormat": "both",
+	"z80-asm-meter.statusBar.showBytes": true,
+	"z80-asm-meter.inlayHints.enabled": true,
+	"z80-asm-meter.inlayHints.subroutines.position": "afterLabel",
+	"z80-asm-meter.inlayHints.exitPoint.position": "lineEnd",
+	"z80-macroasm.format.baseIndent": 1,
+	"z80-macroasm.format.bracketType": "square",
+	"z80-macroasm.format.colonAfterLabels": true,
+	"z80-macroasm.format.spaceAfterArgument": true,
+	"z80-macroasm.seekSymbolsThroughWorkspace": true,
+
+	// ------------------------------------------------------------------------
+	// Other extensions:
+
+	"emulicious-debugger.emuliciousPath": "C:\\games\\Emulators\\Emulicious\\Emulicious.jar",
+
+	"hexeditor.columnWidth": 32,
+	"hexeditor.showDecodedText": true,
+	"hexeditor.defaultEndianness": "little",
+	"hexeditor.inspectorType": "aside",
+}

@@ -1,0 +1,28 @@
+{
+	"recommendations": [
+		// Appearance:
+		"theNestruo.dark-minus-theme",
+		"jtlowe.vscode-icon-theme",
+		"yamatsum.vscode-nonicons",
+		"miguelsolorio.symbols",
+		// Source control:
+		"mhutchie.git-graph",
+		// C
+		"ms-vscode.cpptools",
+		// Java
+		"redhat.java",
+		"redhat.vscode-xml",
+		// JavaScript/TypeScript
+		"connor4312.esbuild-problem-matchers",
+		"dbaeumer.vscode-eslint",
+		// Z80 assembly:
+		"mborik.z80-macroasm",
+		"theNestruo.z80-asm-meter",
+		// Other extensions:
+		"emulicious.emulicious-debugger",
+		"ignore-lens.ignore-lens",
+		"Minko.image-manager",
+		"ms-vscode.hexeditor",
+		"wescottsharples.codeglow",
+	]
+}
