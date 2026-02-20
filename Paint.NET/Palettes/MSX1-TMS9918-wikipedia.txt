@@ -1,0 +1,39 @@
+﻿; TI TMS9918 palette, according Wikipedia
+; (https://en.wikipedia.org/wiki/Texas_Instruments_TMS9918#Colors)
+FF404040 ; 0
+FF000000 ; 1
+FF0AAD1E ; 2
+FF34C84C ; 3
+FF2B2DE3 ; 4
+FF514BFB ; 5
+FFBD2925 ; 6
+FF1EE2EF ; 7
+FFFB2C2B ; 8
+FFFF5F4C ; 9
+FFBDA22B ; A
+FFD7B454 ; B
+FF0A8C18 ; C
+FFAF329A ; D
+FFB2B2B2 ; E
+FFFFFFFF ; F
+;
+; by HUE
+;
+; TI TMS9918 palette, according Wikipedia
+; (https://en.wikipedia.org/wiki/Texas_Instruments_TMS9918#Colors)
+FF404040 ; 0
+FF0A8C18 ; C
+FF0AAD1E ; 2
+FF34C84C ; 3
+FFD7B454 ; B
+FFBDA22B ; A
+FFFF5F4C ; 9
+FFFB2C2B ; 8
+FFBD2925 ; 6
+FFAF329A ; D
+FF2B2DE3 ; 4
+FF514BFB ; 5
+FF1EE2EF ; 7
+FFFFFFFF ; F
+FFB2B2B2 ; E
+FF000000 ; 1

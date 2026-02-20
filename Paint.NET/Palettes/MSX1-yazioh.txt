@@ -1,0 +1,39 @@
+﻿; Palette used by pixel artist Yazioh
+; (https://twitter.com/Yazioh)
+FF404040 ; 0
+FF000000 ; 1
+FF3EB849 ; 2
+FF74D07D ; 3
+FF5955E0 ; 4
+FF8076F1 ; 5
+FFB95E51 ; 6
+FF65DBEF ; 7
+FFDB6559 ; 8
+FFFF897D ; 9
+FFCCC35E ; A
+FFDED087 ; B
+FF3AA241 ; C
+FFB766B5 ; D
+FFCCCCCC ; E
+FFFFFFFF ; F
+;
+; by HUE
+;
+; Palette used by pixel artist Yazioh
+; (https://twitter.com/Yazioh)
+FF404040 ; 0
+FF3AA241 ; C
+FF3EB849 ; 2
+FF74D07D ; 3
+FFDED087 ; B
+FFCCC35E ; A
+FFFF897D ; 9
+FFDB6559 ; 8
+FFB95E51 ; 6
+FFB766B5 ; D
+FF5955E0 ; 4
+FF8076F1 ; 5
+FF65DBEF ; 7
+FFFFFFFF ; F
+FFCCCCCC ; E
+FF000000 ; 1
