@@ -36,7 +36,7 @@
 
 	"editor.fontFamily": "Rec Mono DtCustom, Consolas, monospace",
 	"terminal.integrated.fontFamily": "Consolas, monospace",
-	"workbench.colorTheme": "Dark- custom",
+	"workbench.colorTheme": "Dark- custom (Flat UI)",
 	"workbench.iconTheme": "symbols",
 
 	// ------------------------------------------------------------------------
@@ -46,6 +46,31 @@
 		"[Visual Studio Light][Default Light*]": {
 			"comments": "#3b3b3b80"
 		},
+	},
+	"symbols.files.associations": {
+		// Assembly:
+		"*.asm": "code-yellow",
+		"*.pcx": "image",
+		"*.rom": "exe",
+		"*.sym": "code-gray",
+		// Java:
+		"pom.xml": "gear" // (same as makefile)
+	},
+	"symbols.folders.associations": {
+		"icons": "folder-images",
+		"libext": "folder-utils",
+		"media": "folder-images",
+		"ref": "folder-documents",
+		// GitHub:
+		"workflows": "folder-pipes",
+		// Java:
+		"src": "folder-gray-code",
+		"main": "folder-red-code",
+		"test": "folder-green-code",
+		"java": "folder-red-code",
+	},
+	"symbols.rootFolders.associations": {
+		"thenestruo-parent": "root-folder-sky",
 	},
 	"workbench.colorCustomizations": {
 		"[Visual Studio Light][Default Light*]": {
@@ -74,6 +99,7 @@
 	"editor.minimap.enabled": false,
 	"editor.minimap.renderCharacters": false,
 	"editor.occurrencesHighlight": "off",
+	"editor.occurrencesHighlightDelay": 150,
 	"editor.overviewRulerBorder": false,
 	"editor.renderLineHighlight": "all",
 	"editor.renderLineHighlightOnlyWhenFocus": true,
@@ -91,6 +117,8 @@
 	"explorer.enableDragAndDrop": false,
 	"files.insertFinalNewline": true,
 	"files.trimTrailingWhitespace": true,
+	"imageCarousel.chat.enabled": false,
+	"imageCarousel.explorerContextMenu.enabled": false,
 	"outline.collapseItems": "alwaysCollapse",
 	"outline.showProperties": false,
 	"outline.showVariables": false,
@@ -122,12 +150,14 @@
 	"workbench.editor.limit.perEditorGroup": true,
 	"workbench.editor.limit.value": 7,
 	"workbench.editor.revealIfOpen": true,
+	"workbench.editor.useModal": "off",
 	"workbench.layoutControl.enabled": false,
 	"workbench.list.openMode": "doubleClick",
 	"workbench.startupEditor": "none",
 	"workbench.tree.enableStickyScroll": true,
 	"workbench.tree.expandMode": "doubleClick",
 	"workbench.tree.indent": 16,
+	"workbench.secondarySideBar.defaultVisibility": "hidden",
 	"zenMode.centerLayout": false,
 	"zenMode.fullScreen": false,
 
@@ -206,8 +236,7 @@
 	},
 	"eslint.codeActionsOnSave.mode": "all",
 	"eslint.codeActionsOnSave.options": {},
-	"javascript.updateImportsOnFileMove.enabled": "always",
-	"typescript.updateImportsOnFileMove.enabled": "always",
+	"js/ts.updateImportsOnFileMove.enabled": "always",
 
 	// Markdown:
 	"[markdown]": {
