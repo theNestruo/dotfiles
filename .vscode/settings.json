@@ -2,7 +2,6 @@
 	// ------------------------------------------------------------------------
 	// Telemetry, online services, and GitHub Copilot off:
 
-	"chat.agent.enabled": false,
 	"chat.disableAIFeatures": true,
 	"extensions.allowed": {
 		"equinusocio": false, // Material Theme license changes and drama
@@ -36,8 +35,8 @@
 
 	"editor.fontFamily": "Rec Mono DtCustom, Consolas, monospace",
 	"terminal.integrated.fontFamily": "Consolas, monospace",
-	"workbench.colorTheme": "Dark- custom (Flat UI)",
-	"workbench.iconTheme": "symbols",
+	"workbench.colorTheme": "Works for Me",
+	"workbench.iconTheme": "fantasticons",
 
 	// ------------------------------------------------------------------------
 	// Appearance tweaks:
@@ -46,31 +45,6 @@
 		"[Visual Studio Light][Default Light*]": {
 			"comments": "#3b3b3b80"
 		},
-	},
-	"symbols.files.associations": {
-		// Assembly:
-		"*.asm": "code-yellow",
-		"*.pcx": "image",
-		"*.rom": "exe",
-		"*.sym": "code-gray",
-		// Java:
-		"pom.xml": "gear" // (same as makefile)
-	},
-	"symbols.folders.associations": {
-		"icons": "folder-images",
-		"libext": "folder-utils",
-		"media": "folder-images",
-		"ref": "folder-documents",
-		// GitHub:
-		"workflows": "folder-pipes",
-		// Java:
-		"src": "folder-gray-code",
-		"main": "folder-red-code",
-		"test": "folder-green-code",
-		"java": "folder-red-code",
-	},
-	"symbols.rootFolders.associations": {
-		"thenestruo-parent": "root-folder-sky",
 	},
 	"workbench.colorCustomizations": {
 		"[Visual Studio Light][Default Light*]": {
@@ -84,6 +58,7 @@
 	// General layout and behaviour:
 
 	"breadcrumbs.symbolPath": "off",
+	"chat.viewSessions.orientation": "stacked",
 	"debug.toolBarLocation": "docked",
 	"diffEditor.ignoreTrimWhitespace": true,
 	"editor.bracketPairColorization.enabled": false,
