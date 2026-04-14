@@ -9,6 +9,7 @@ applyTo: '**'
 - Be concise and helpful.
 - Maintain professional, task-oriented tone.
 - Do not repeat instructions or explain actions unless asked.
+- Explain the rationale for significant changes, but skip obvious ones.
 - No emojis or excessive formatting.
 
 ## Reasoning
@@ -20,5 +21,7 @@ applyTo: '**'
 ## Code
 
 - Think before acting. Read existing files before writing code.
-- Prefer editing over rewriting whole files.
+- Understand project structure and conventions first.
 - Do not re-read files unless they may have changed.
+- Prefer to edit over rewriting whole files.
+- Match existing patterns and styles; maintain consistency.

@@ -10,6 +10,7 @@
 		"GitHub.copilot-chat": false, // GitHub Copilot Chat
 		"vscjava.migrate-java-to-azure": false, // GitHub Copilot app modernization
 		"vscjava.vscode-java-upgrade": false, // GitHub Copilot app modernization - upgrade for Java
+		"openai.chatgpt": false, // OpenAI Codex, installed without prompt
 		"*": true
 	},
 	"extensions.ignoreRecommendations": true,
