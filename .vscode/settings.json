@@ -1,4 +1,20 @@
 {
+	// https://update.code.visualstudio.com/1.110.1/win32-x64-user/stable
+	// Latest version without:
+	// - weekly Stable releases (1.111)
+	// - Integrated browser (1.112)
+	// - Image carousel (1.113)
+	// - Obnoxious Update button in title bar (1.114?)
+	// - GitHub Copilot is now built-in (1.116)
+
+	// ------------------------------------------------------------------------
+	// Updates off:
+
+	"update.enableWindowsBackgroundUpdates": false,
+	"update.mode": "none",
+	"update.showReleaseNotes": false,
+	"update.statusBar": "hidden",
+
 	// ------------------------------------------------------------------------
 	// Telemetry, online services, and GitHub Copilot off:
 
@@ -6,24 +22,17 @@
 	"extensions.allowed": {
 		"equinusocio": false, // Material Theme license changes and drama
 		"vira": false, // Material Theme license changes and drama
-		"GitHub.copilot": false, // GitHub Copilot
-		"GitHub.copilot-chat": false, // GitHub Copilot Chat
+		"GitHub.copilot": false, // GitHub Copilot, installed without prompt
+		"GitHub.copilot-chat": false, // GitHub Copilot Chat, installed without prompt
 		"vscjava.migrate-java-to-azure": false, // GitHub Copilot app modernization
 		"vscjava.vscode-java-upgrade": false, // GitHub Copilot app modernization - upgrade for Java
 		"openai.chatgpt": false, // OpenAI Codex, installed without prompt
 		"*": true
 	},
 	"extensions.ignoreRecommendations": true,
-	"github.copilot.enable": {
-		"*": false,
-		"plaintext": false,
-		"markdown": false,
-		"scminput": false
-	},
 	"redhat.telemetry.enabled": false,
 	"telemetry.feedback.enabled": false,
 	"telemetry.telemetryLevel": "off",
-	"update.showReleaseNotes": false,
 	"workbench.cloudChanges.autoResume": "off",
 	"workbench.cloudChanges.continueOn": "off",
 	"workbench.enableExperiments": false,
@@ -59,7 +68,6 @@
 	// General layout and behaviour:
 
 	"breadcrumbs.symbolPath": "off",
-	"chat.viewSessions.orientation": "stacked",
 	"debug.toolBarLocation": "docked",
 	"diffEditor.ignoreTrimWhitespace": true,
 	"editor.bracketPairColorization.enabled": false,
@@ -93,8 +101,6 @@
 	"explorer.enableDragAndDrop": false,
 	"files.insertFinalNewline": true,
 	"files.trimTrailingWhitespace": true,
-	"imageCarousel.chat.enabled": false,
-	"imageCarousel.explorerContextMenu.enabled": false,
 	"outline.collapseItems": "alwaysCollapse",
 	"outline.showProperties": false,
 	"outline.showVariables": false,
@@ -197,7 +203,6 @@
 	"java.configuration.updateBuildConfiguration": "automatic",
 	"java.completion.favoriteStaticMembers": [],
 	"java.inlayHints.parameterNames.enabled": "none",
-	"java.saveActions.organizeImports": true,
 	"java.saveActions.cleanup": true,
 	"java.server.launchMode": "LightWeight",
 
