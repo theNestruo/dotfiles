@@ -1,11 +1,13 @@
 {
-	// https://update.code.visualstudio.com/1.110.1/win32-x64-user/stable
+	// https://update.code.visualstudio.com/1.109.5/win32-x64-user/stable
 	// Latest version without:
-	// - weekly Stable releases (1.111)
+	// - Modal editors (1.110)
+	// - Weekly stable releases (1.111)
 	// - Integrated browser (1.112)
 	// - Image carousel (1.113)
-	// - Obnoxious Update button in title bar (1.114?)
-	// - GitHub Copilot is now built-in (1.116)
+	// - New default themes (1.113)
+	// - Obnoxious update button in title bar (1.114?)
+	// - GitHub Copilot built-in (1.116)
 
 	// ------------------------------------------------------------------------
 	// Updates off:
