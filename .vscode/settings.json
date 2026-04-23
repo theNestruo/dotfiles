@@ -15,7 +15,7 @@
 	"update.enableWindowsBackgroundUpdates": false,
 	"update.mode": "none",
 	"update.showReleaseNotes": false,
-	"update.statusBar": "hidden",
+	"update.statusBar": "hidden", // (1.114? onwards: Obnoxious update button in title bar)
 
 	// ------------------------------------------------------------------------
 	// Telemetry, online services, and GitHub Copilot off:
@@ -37,6 +37,7 @@
 	"telemetry.telemetryLevel": "off",
 	"workbench.cloudChanges.autoResume": "off",
 	"workbench.cloudChanges.continueOn": "off",
+	"workbench.commandPalette.experimental.enableNaturalLanguageSearch": false,
 	"workbench.enableExperiments": false,
 	"workbench.settings.enableNaturalLanguageSearch": false,
 	"workbench.tips.enabled": false,
@@ -134,7 +135,7 @@
 	"workbench.editor.limit.perEditorGroup": true,
 	"workbench.editor.limit.value": 7,
 	"workbench.editor.revealIfOpen": true,
-	"workbench.editor.useModal": "off",
+	"workbench.editor.useModal": "off", // (1.110 onwards: Modal editors)
 	"workbench.layoutControl.enabled": false,
 	"workbench.list.openMode": "doubleClick",
 	"workbench.startupEditor": "none",
@@ -219,7 +220,9 @@
 	},
 	"eslint.codeActionsOnSave.mode": "all",
 	"eslint.codeActionsOnSave.options": {},
-	"js/ts.updateImportsOnFileMove.enabled": "always",
+	"javascript.updateImportsOnFileMove.enabled": "always", // (up to 1.109)
+	"typescript.updateImportsOnFileMove.enabled": "always", // (up to 1.109)
+	"js/ts.updateImportsOnFileMove.enabled": "always", // (1.110 onwards: Unified JavaScript and TypeScript settings)
 
 	// Markdown:
 	"[markdown]": {
