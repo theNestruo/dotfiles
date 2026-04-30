@@ -33,6 +33,24 @@ FF23B22C ; C
 FFC85AC6 ; D
 FFCCCCCC ; E
 FFFFFFFF ; F
+; NTSC TMS9918a (SG-1000/SC-3000) palette, according SMS Power
+; (https://www.smspower.org/Development/Palette)
+FF404040 ; 0
+FF000000 ; 1
+FF21C842 ; 2
+FF5EDC78 ; 3
+FF5455ED ; 4
+FF7D76FC ; 5
+FFD4524D ; 6
+FF42EBF5 ; 7
+FFFC5554 ; 8
+FFFF7978 ; 9
+FFD4C154 ; A
+FFE6CE80 ; B
+FF21B03B ; C
+FFC95BBA ; D
+FFCCCCCC ; E
+FFFFFFFF ; F
 ; V9938 palette, from hap's meisei emulator
 FF404040 ; 0
 FF000000 ; 1
