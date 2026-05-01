@@ -33,7 +33,8 @@ FF23B22C ; C
 FFC85AC6 ; D
 FFCCCCCC ; E
 FFFFFFFF ; F
-; NTSC TMS9918a (SG-1000/SC-3000) palette, according SMS Power
+; TI TMS9918a palette, according Sean Young and SMS Power
+; (http://bifi.msxnet.org/msxnet/tech/tms9918a.txt)
 ; (https://www.smspower.org/Development/Palette)
 FF404040 ; 0
 FF000000 ; 1
