@@ -8,6 +8,7 @@
 	// - New default themes (1.113)
 	// - Obnoxious update button in title bar (1.114?)
 	// - GitHub Copilot built-in (1.116)
+	// - Copilot added as a Git co-author by default (1.118)
 
 	// ------------------------------------------------------------------------
 	// Updates off:
@@ -18,7 +19,7 @@
 	"update.statusBar": "hidden", // (1.114? onwards: Obnoxious update button in title bar)
 
 	// ------------------------------------------------------------------------
-	// Telemetry, online services, and GitHub Copilot off:
+	// GitHub Copilot off:
 
 	"chat.disableAIFeatures": true,
 	"extensions.allowed": {
@@ -31,6 +32,14 @@
 		"openai.chatgpt": false, // OpenAI Codex, installed without prompt
 		"*": true
 	},
+	"git.addAICoAuthor": false, // (1.118 onwards: Copilot added as a Git co-author by default)
+	"github.copilot.enable": {
+		"*": false
+	},
+
+	// ------------------------------------------------------------------------
+	// Telemetry and online services off:
+
 	"extensions.ignoreRecommendations": true,
 	"redhat.telemetry.enabled": false,
 	"telemetry.feedback.enabled": false,
