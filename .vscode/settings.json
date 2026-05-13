@@ -6,7 +6,7 @@
 	// - Integrated browser (1.112)
 	// - Image carousel (1.113)
 	// - New default themes (1.113)
-	// - Obnoxious update button in title bar (1.114?)
+	// - Obnoxious update button in title bar (1.114?, 1.119)
 	// - GitHub Copilot built-in (1.116)
 	// - Copilot added as a Git co-author by default (1.118)
 
@@ -16,7 +16,8 @@
 	"update.enableWindowsBackgroundUpdates": false,
 	"update.mode": "none",
 	"update.showReleaseNotes": false,
-	"update.statusBar": "hidden", // (1.114? onwards: Obnoxious update button in title bar)
+	"update.statusBar": "off", // (1.114? onwards: Obnoxious update button in title bar)
+	"update.titleBar": false, // (1.119 onwards)
 
 	// ------------------------------------------------------------------------
 	// GitHub Copilot off:
@@ -32,7 +33,7 @@
 		"openai.chatgpt": false, // OpenAI Codex, installed without prompt
 		"*": true
 	},
-	"git.addAICoAuthor": false, // (1.118 onwards: Copilot added as a Git co-author by default)
+	"git.addAICoAuthor": "off", // (1.118 onwards: Copilot added as a Git co-author by default)
 	"github.copilot.enable": {
 		"*": false
 	},
@@ -103,10 +104,8 @@
 	"editor.roundedSelection": false,
 	"editor.rulers": [ 80, 120 ],
 	"editor.scrollbar.scrollByPage": true,
-	"editor.scrollBeyondLastLine": false,
 	"editor.selectionHighlight": false,
 	"editor.stickyScroll.enabled": true,
-	"editor.suggest.insertMode": "insert",
 	"editor.suggestOnTriggerCharacters": false,
 	"editor.wordBasedSuggestions": "off",
 	"explorer.autoReveal": false,
@@ -148,7 +147,6 @@
 	"workbench.layoutControl.enabled": false,
 	"workbench.list.openMode": "doubleClick",
 	"workbench.startupEditor": "none",
-	"workbench.tree.enableStickyScroll": true,
 	"workbench.tree.expandMode": "doubleClick",
 	"workbench.tree.indent": 16,
 	"workbench.secondarySideBar.defaultVisibility": "hidden",
