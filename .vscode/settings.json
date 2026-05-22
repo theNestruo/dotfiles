@@ -14,6 +14,8 @@
 	// ------------------------------------------------------------------------
 	// Updates off:
 
+	"extensions.autoCheckUpdates": false,
+	"extensions.autoUpdate": false,
 	"update.enableWindowsBackgroundUpdates": false,
 	"update.mode": "none",
 	"update.showReleaseNotes": false,
@@ -55,6 +57,14 @@
 	"workbench.welcomePage.walkthroughs.openOnInstall": false,
 
 	// ------------------------------------------------------------------------
+	// Party mode:
+
+	// "editor.cursorBlinking": "solid",
+	// "editor.cursorStyle": "block",
+	// "editor.cursorSmoothCaretAnimation": "explicit",
+	// "editor.smoothScrolling": true,
+
+	// ------------------------------------------------------------------------
 	// Appearance:
 
 	"editor.fontFamily": "Rec Mono DtCustom, Consolas, monospace",
@@ -76,12 +86,16 @@
 			"editorInlayHint.foreground": "#3b3b3b",
 			"editorLineNumber.foreground": "#3b3b3b40"
 		},
+		"[Works for Me]": {
+			"editorCursor.foreground": "#f4f4f4",
+		},
 	},
 
 	// ------------------------------------------------------------------------
 	// General layout and behaviour:
 
 	"breadcrumbs.symbolPath": "off",
+	"chat.viewSessions.orientation": "stacked",
 	"debug.toolBarLocation": "docked",
 	"diffEditor.ignoreTrimWhitespace": true,
 	"editor.bracketPairColorization.enabled": false,
@@ -102,7 +116,6 @@
 	"editor.renderLineHighlight": "all",
 	"editor.renderLineHighlightOnlyWhenFocus": true,
 	"editor.renderWhitespace": "none",
-	"editor.roundedSelection": false,
 	"editor.rulers": [ 80, 120 ],
 	"editor.scrollbar.scrollByPage": true,
 	"editor.selectionHighlight": false,
@@ -202,7 +215,9 @@
 
 	// Java
 	"[java]": {
+		"editor.indentSize": "tabSize",
 		"editor.occurrencesHighlight": "singleFile",
+		"editor.tabSize": 4,
 	},
 	"java.cleanup.actions": [
 		/*
@@ -293,6 +308,12 @@
 
 	// ------------------------------------------------------------------------
 	// Other extensions:
+
+	"codeglow.enabledLanguages": [
+		// "*"
+	],
+	"codeglow.dimOpacity": 0.6,
+	"codeglow.keepMarkdownHeadingsVisible": true,
 
 	"emulicious-debugger.emuliciousPath": "C:\\games\\Emulators\\Emulicious\\Emulicious.jar",
 
