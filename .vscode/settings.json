@@ -1,8 +1,11 @@
 {
 	// https://update.code.visualstudio.com/1.109.5/win32-x64-user/stable
 	// https://update.code.visualstudio.com/1.110.1/win32-x64-user/stable
+	//
 	// Reasons to update:
+	// - Select bracket and string content with double-click (1.109)
 	// - Bug: Double-clicking words no longer selects word #295027 (fixed in 1.110)
+	//
 	// Reasons not to update:
 	// - Modal editors (1.110)
 	// - Weekly stable releases (1.111)
@@ -13,6 +16,10 @@
 	// - GitHub Copilot built-in (1.116)
 	// - Copilot added as a Git co-author by default (1.118)
 	// - Agents window (1.120)
+	// - Quick suggestions default setting change (1.121)
+	// - Browser device emulation (Integrated browser) (1.122)
+	// - Rich issue reporting (1.122)
+	// - Favorite pages (Integrated browser) (1.123)
 
 	// ------------------------------------------------------------------------
 	// Updates off:
@@ -29,6 +36,11 @@
 	// GitHub Copilot off:
 
 	"chat.disableAIFeatures": true,
+	"editor.quickSuggestions": {
+		"other": "on", // (1.121 Quick suggestions default setting change)
+		"comments": "off",
+		"strings": "off"
+	},
 	"extensions.allowed": {
 		"equinusocio": false, // Material Theme license changes and drama
 		"vira": false, // Material Theme license changes and drama
@@ -90,6 +102,7 @@
 			"editorLineNumber.foreground": "#3b3b3b40"
 		},
 		"[Works for Me]": {
+			"sideBar.border": "#121212",
 			"editorCursor.foreground": "#f4f4f4",
 		},
 	},
@@ -192,6 +205,7 @@
 	"git-graph.enhancedAccessibility": true,
 	"git-graph.referenceLabels.alignment": "Branches (aligned to the graph) & Tags (on the right)",
 	"git-graph.repository.commits.mute.commitsThatAreNotAncestorsOfHead": true,
+	"gitGraphPlus.graphSortOrder": "date",
 
 	// ------------------------------------------------------------------------
 	// Language specific settings:
@@ -207,6 +221,20 @@
 	// CSS
 	"css.format.newlineBetweenSelectors": false,
 	"css.format.spaceAroundSelectorSeparator": true,
+
+	// Hex Editor with colors
+	"hexeditor.columnWidth": 32,
+	"hexeditor.copyType": "Hex Octets",
+	"hexeditor.dataInspector.autoReveal": false,
+	"hexeditor.defaultEndianness": "little",
+	"hexeditor.inspectorType": "sidebar",
+	"hexeditor.showDecodedText": true,
+	"hexeditor.showOpenFileButton": true,
+	"hexeditor.style.byteColorScheme": "gradient",
+	"hexeditor.style.decodedTextColorScheme": "default",
+	"hexeditor.style.nonPrintableAsciiCharacter": "braille",
+	"hexeditor.style.printableAsciiCharacter": "ascii",
+	"hexeditor.style.nonAsciiCharacter": "braille",
 
 	// HTML
 	"[html]": {
@@ -319,10 +347,4 @@
 	"codeglow.keepMarkdownHeadingsVisible": true,
 
 	"emulicious-debugger.emuliciousPath": "C:\\games\\Emulators\\Emulicious\\Emulicious.jar",
-
-	"hexeditor.columnWidth": 32,
-	"hexeditor.copyType": "Hex Octets",
-	"hexeditor.defaultEndianness": "little",
-	"hexeditor.inspectorType": "aside",
-	"hexeditor.showDecodedText": true,
 }

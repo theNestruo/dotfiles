@@ -1,13 +1,19 @@
 {
 	"recommendations": [
-		// Appearance:
+		//
+		// Appearance ---------------------------------------------------------
 		"theNestruo.dark-minus-theme",
-		"jtlowe.vscode-icon-theme",
-		"yamatsum.vscode-nonicons",
+		"theNestruo.worksforme-theme",
+		"theNestruo.fantasticons-icons-theme",
 		"miguelsolorio.symbols",
-		// Source control:
+		"tiagojct.pequod-color-theme",
+		//
+		// Source control -----------------------------------------------------
 		"mhutchie.git-graph",
-		// C
+		"the0807.git-graph-plus",
+		//
+		// Coding -------------------------------------------------------------
+		// C/C++
 		"ms-vscode.cpptools",
 		// Java
 		"redhat.java",
@@ -15,14 +21,16 @@
 		// JavaScript/TypeScript
 		"connor4312.esbuild-problem-matchers",
 		"dbaeumer.vscode-eslint",
-		// Z80 assembly:
+		"ms-vscode.vscode-js-profile-flame",
+		// Z80 assembly
 		"mborik.z80-macroasm",
 		"theNestruo.z80-asm-meter",
-		// Other extensions:
+		//
+		// Other extensions ---------------------------------------------------
 		"emulicious.emulicious-debugger",
 		"ignore-lens.ignore-lens",
+		"theNestruo.hexeditor-with-colors",
 		"Minko.image-manager",
-		"ms-vscode.hexeditor",
 		"wescottsharples.codeglow",
 	]
 }
